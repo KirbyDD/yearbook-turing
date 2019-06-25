@@ -1,3 +1,12 @@
+.person {
+  background-color: white;
+  border: solid;
+  box-sizing: border-box;
+  margin: 5px;
+  padding: 10px;
+  width: 24%
+}
+
 img {
   width: 150px;
 }
