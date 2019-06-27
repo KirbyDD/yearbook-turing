@@ -1,3 +1,16 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Cohort should match snapshot 1`] = `ShallowWrapper {}`;
+exports[`Cohort should match snapshot 1`] = `
+<main>
+  <h2>
+    Staff
+  </h2>
+  <div />
+  <h2>
+    Students
+  </h2>
+  <div />
+  <AddNewStudent />
+  &gt;
+</main>
+`;

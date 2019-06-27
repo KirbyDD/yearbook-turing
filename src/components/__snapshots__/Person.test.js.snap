@@ -1,3 +1,14 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Person should match snapshot 1`] = `ShallowWrapper {}`;
+exports[`Person should match snapshot 1`] = `
+<article
+  className="person"
+>
+  <img
+    alt="individual Person"
+  />
+  <h3 />
+  <p />
+  <p />
+</article>
+`;

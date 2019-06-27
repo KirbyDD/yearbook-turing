@@ -1,3 +1,11 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`AddNewStudent should match snapshot 1`] = `ShallowWrapper {}`;
+exports[`AddNewStudent should match snapshot 1`] = `
+<section>
+  <button
+    onClick={[Function]}
+  >
+    Add Student!
+  </button>
+</section>
+`;
