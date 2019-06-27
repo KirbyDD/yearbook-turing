@@ -1,10 +1,10 @@
 import React from 'react';
-import App from './App';
+import Cohort from './Cohort';
 import { shallow } from 'enzyme'
 
-describe('App', () => {
+describe('Cohort', () => {
   it('should match snapshot', () => {
-    const wrapper = shallow(<App />)
+    const wrapper = shallow(<Cohort staff={[]} students={[]}/>)
     expect(wrapper).toMatchSnapshot();
   })
 })
